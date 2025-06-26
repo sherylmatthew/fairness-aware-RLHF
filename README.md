@@ -28,6 +28,7 @@ This work builds a **fair recommendation system** using **Offline Reinforcement 
 
 ## Repository Structure
 
+```
 
 /src
 ├── preprocess_data.py
