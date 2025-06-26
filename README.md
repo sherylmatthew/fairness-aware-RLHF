@@ -27,26 +27,25 @@ This work builds a **fair recommendation system** using **Offline Reinforcement 
 ---
 
 ## Repository Structure
+
+
 /src
-│
 ├── preprocess_data.py
-│   └─ Preprocesses the raw dataset (`shopping_behavior_updated.csv`)
-│      and saves it as `preprocessed_shopping_data.csv`.
+│   └─ Preprocesses the raw dataset (shopping_behavior_updated.csv) and saves it as preprocessed_shopping_data.csv.
 │
 ├── train_model.py
-│   └─ Trains a PPO model using the preprocessed data and
-│      saves it as `ppo_shopping_model.zip`.
+│   └─ Trains a PPO model using the preprocessed data and saves it as ppo_shopping_model.zip.
 │
 ├── evaluate_fairness.py
-│   └─ Evaluates the fairness of the model's recommendations
-│      using Fairlearn and visualizes the results.
+│   └─ Evaluates the fairness of the model's recommendations using fairlearn and visualizes results.
 │
 ├── incorporate_human_feedback.py
-│   └─ Fine-tunes the model with simulated human feedback and
-│      saves it as `ppo_shopping_model_with_feedback.zip`.
+│   └─ Fine-tunes the model with simulated human feedback and saves it as ppo_shopping_model_with_feedback.zip.
 │
 └── README.md
-    └─ Provides project overview, setup instructions, and usage.
+    └─ This file, providing an overview and usage instructions.
+```
+
 
 
 ---
