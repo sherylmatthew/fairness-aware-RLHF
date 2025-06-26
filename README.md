@@ -28,3 +28,14 @@ This work builds a **fair recommendation system** using **Offline Reinforcement 
 
 ## 🗂️ Repository Structure
 
+
+---
+
+## 🧪 Prerequisites
+
+- Python **3.8+**
+- Recommended: Run in **Google Colab**
+- Install dependencies manually:
+
+```bash
+pip install pandas numpy gymnasium stable-baselines3 scikit-learn fairlearn matplotlib seaborn google-colab
